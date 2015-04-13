@@ -106,7 +106,7 @@ if [ ! -d $logdir ]; then
 fi
 
 SOURCE_FILE="app.js"
-USAGE="Usage:  {start|restart|stop|graceful|status} <app name>"
+USAGE="Usage: forever_nodejs_op.sh {start|restart|stop|graceful|status} <app name>"
 user="rr"
 outlog="$PROJECT_DIR/logs/$NAME.log"
 errlog="$PROJECT_DIR/logs/$NAME.err"
